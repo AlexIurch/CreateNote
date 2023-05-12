@@ -1,0 +1,174 @@
+html, body, #root {
+  height: 100%;
+  /* font-size: 20px; */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+footer.page-footer{
+      flex-shrink: 0;
+}
+.hide {
+    display: none;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+footer {
+    color: #fff;
+}
+
+.text {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+
+.button-list {
+    list-style-type: none;
+}
+
+.button-list li {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.active {
+    color: red;
+}
+
+/* //header// */
+
+.nav-block{
+    font-family: 'Noto Sans', sans-serif;
+    grid-area: h;
+    height: fit-content;
+    /* max-width: 1400px; */
+    /* margin: 0 auto; */
+
+}
+
+.brand{
+    margin-left: 0%; 
+}
+
+
+.navbar-toggler {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler:hover {
+    background-color: #555;
+  }
+
+  .navbar-toggler {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler.animate {
+    transform: rotate(90deg);
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  a.nav-link:hover {
+    text-decoration: none;
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+  border-bottom: 2px solid #fe0707;
+  /* border-top: 2px solid #ff0000; */
+
+ color: aliceblue;
+    font-size: 17px;
+  }
+
+  a.nav-link:hover {
+    color: rgb(255 255 255);
+}
+
+button.navbar-toggler.collapsed{
+  margin-left: 0.5em;
+}
+
+.main{   
+    grid-area: m;   
+   /* background-image: url(../photo/pexels-3.jpg); */
+   background-color: rgb(239, 244, 245);
+   background-size: cover;
+    /* min-height: 1130px; */
+   min-height: auto;
+    width: 85%;
+    max-width: 1310px;
+    margin: 0 auto;
+    /* font-size: 1.5rem; */
+  }
+
+  .main-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 2em;
+    text-align: justify;
+  }
+.underline{
+  border: 2px solid #fe0707;
+  margin-left: 0.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+.btn-primary{
+  background: #1b1a1a;
+}
+
+.footer{
+    width: 100%;
+    background-color: #1b1a1a;
+    grid-area: f;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.nav-block{
+    font-family: 'Noto Sans', sans-serif;
+    grid-area: h;
+    height: fit-content;
+    /* max-width: 1400px; */
+    /* margin: 0 auto; */
+
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -2px;
+}
+
+.myBrend{
+  height: 53px;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 1100px){
+  .main-text{
+    font-size: 1rem;
+   
+  }
+  .main{   
+   background-color: #fff8f8;
+   width: 100%;
+  }
+}

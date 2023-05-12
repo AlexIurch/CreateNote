@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CreateNote/static/css/main.1b4b9181.css",
+    "main.js": "/CreateNote/static/js/main.c3e2f96d.js",
+    "static/js/787.c1112931.chunk.js": "/CreateNote/static/js/787.c1112931.chunk.js",
+    "index.html": "/CreateNote/index.html",
+    "main.1b4b9181.css.map": "/CreateNote/static/css/main.1b4b9181.css.map",
+    "main.c3e2f96d.js.map": "/CreateNote/static/js/main.c3e2f96d.js.map",
+    "787.c1112931.chunk.js.map": "/CreateNote/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b4b9181.css",
+    "static/js/main.c3e2f96d.js"
+  ]
+}
